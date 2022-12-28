@@ -1,0 +1,21 @@
+.btn-outline {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    height: 48px;
+    border-radius: 5px;
+    padding: 12px 20px;
+    border: 1px solid #000;
+    background-color: var(--white);
+    color: var(--black);
+    transition: opacity .3s ease 0s;
+}
+
+.btn-outline:hover {
+    opacity: 0.8;
+}
+
+.btn-outline:active {
+    position: relative;
+    top: 1px;
+}

@@ -1,0 +1,48 @@
+/* HEADER */
+.header {
+    min-height: 695px;
+    padding: 40px 0;
+    background-color: var(--dark-bg);
+    color: var(--header-text);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('./../../img/header-bg.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center center;
+}
+
+.header__box {
+    padding: 0 15px;
+    max-width: 630px;
+
+}
+
+.header__title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.header__title strong {
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.header__title em {
+    font-style: normal;
+    color: var(--accent);
+}
+
+.header__text {
+    font-size: 18px;
+    line-height: 1.333;
+    margin-bottom: 40px;
+}
+
+.header__text p+p {
+    margin-top: .5em;
+}
